@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InternSpace | Find Your Internship</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <a href="#home" class="logo">Intern<span>Space</span></a>
+
+    <nav aria-label="Main navigation">
+        <a href="#home" style="color:black ;font-weight:bold; front-size:20px;">Home</a>
+        <a href="#explore" style="color:black ;font-weight:bold; front-size:20px;">Internships</a>
+        <a href="#about" style="color:black;font-weight:bold; front-size:20px;">About</a>
+    </nav>
+
+    <a href="#explore" class="nav-button">Find Internship ↗</a>
+</header>
+
+<main>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <span class="eyebrow">YOUR CAREER STARTS HERE</span>
+
+            <h1>
+                Find your path.<br>
+                <span>Build your future.</span>
+            </h1>
+
+            <p>
+                Discover internship opportunities that match
+                your interests, develop practical skills and
+                take your first step towards a successful career.
+            </p>
+
+            <a href="#explore" class="primary-button">
+                Explore Internships →
+            </a>
+
+            <div class="hero-note">
+                ✦ Learn something new. Build something real.
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img
+                src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1000&auto=format&fit=crop"
+                alt="Professionals working together">
+
+            <div class="image-caption">
+                <strong>Your next opportunity is waiting.</strong>
+                <p>Start learning. Start growing.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Internship Search Section -->
+    <section class="explore-section" id="explore">
+
+        <div class="section-heading">
+            <div>
+                <span class="eyebrow">EXPLORE OPPORTUNITIES</span>
+                <h2>Find your internship</h2>
+                <p>Search opportunities based on your skills and interests.</p>
+            </div>
+
+            <span class="live-label">● 10 Domains</span>
+        </div>
+
+
+        <!-- Search and Filters -->
+        <div class="search-panel">
+
+            <div class="search-box">
+                <label for="searchInput">Search Internship</label>
+                <input
+                    type="search"
+                    id="searchInput"
+                    placeholder="Search your role...">
+            </div>
+
+            <div class="filter-box">
+                <label for="domainFilter">Select Domain</label>
+
+                <select id="domainFilter">
+                    <option value="all">All Domains</option>
+                    <option value="UI/UX Design">UI/UX Design</option>
+                    <option value="DSA">Data Structures & Algorithms</option>
+                    <option value="Frontend Development">Frontend Development</option>
+                    <option value="Backend Development">Backend Development</option>
+                    <option value="Python Development">Python Development</option>
+                    <option value="Generative AI">Generative AI</option>
+                    <option value="Data Science">Data Science</option>
+                    <option value="Cybersecurity">Cybersecurity</option>
+                    <option value="Cloud Computing">Cloud Computing</option>
+                    <option value="Java Development">Java Development</option>
+                </select>
+            </div>
+
+            <button class="clear-button" id="clearButton">
+                Clear Filters
+            </button>
+
+        </div>
+
+
+        <div class="results-heading">
+            <p id="resultCount" aria-live="polite">
+                Showing internships
+            </p>
+        </div>
+
+        <!-- Cards generated using JavaScript -->
+        <div
+            class="internship-grid"
+            id="internshipGrid"
+            aria-label="Internship listings"
+            aria-live="polite">
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+
+        <span class="eyebrow">ABOUT INTERNSPACE</span>
+
+        <h2>Every expert started as a beginner.</h2>
+
+        <p>
+            Finding the right internship is the first step
+            towards building your career. Explore different
+            domains, gain experience and discover your potential.
+        </p>
+
+        <a href="#explore" class="primary-button">
+            Start Exploring →
+        </a>
+
+    </section>
+
+</main>
+
+
+<!-- Footer -->
+<footer>
+    <a href="#home" class="logo">intern<span>space.</span></a>
+
+    <p>Made for learners, dreamers and future professionals.</p>
+
+    <p class="copyright">
+        © 2026 InternSpace. All rights reserved.
+    </p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
