@@ -86,4 +86,3 @@ Frontend Web Development Project
 
 ## Tagline
 **InternSpace – Find Your Internship, Build Your Future!**
->>>>>>> ed07136899ebc74809968d5c9e92832ac0da04b0
